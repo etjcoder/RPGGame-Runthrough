@@ -1,0 +1,170 @@
+
+#container {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+#header {
+    background: lightgoldenrodyellow;
+    color: black;
+    padding: 25px;
+    text-align: center
+
+}
+
+#arena {
+    margin-top: 25px;
+    background: lightgrey;
+    padding: 20px;
+    text-align: center;
+    height: 250px
+}
+
+#hero-box {
+    float: left;
+    width: 30%;
+    /* padding: 10px; */
+    height: 100%;
+    background-color: mediumaquamarine
+}
+
+#activehero-image {
+    height: 100px;
+    width: 100px;
+}
+
+#activeenemy-image {
+    height: 100px;
+    width: 100px
+}
+
+#score-box {
+    float: left;
+    width: 40%;
+    /* padding: 10px; */
+    height: 100%;
+    background-color: mediumseagreen
+}
+
+#enemy-box {
+    float: left;
+    width: 30%;
+    /* padding: 10px; */
+    height: 100%;
+    background-color: mediumaquamarine
+}
+
+
+#player-choices {
+    margin-top: 30px;
+    background: lightslategrey;
+    padding: 20px;
+    text-align: center;
+    height: 600px;
+}
+
+#heroes {
+    width: 100%;
+    height: 35%
+}
+
+#hero-1 {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: mediumpurple
+}
+
+#hero-2 {
+    float: left;
+    width: 34%;
+    height: 100%;
+    background-color: mediumslateblue
+}
+
+#hero-3 {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: mediumpurple
+}
+
+#breaker {
+    height: 10%;
+    margin-top: 5%;
+    background-color: rosybrown;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#enemies {
+    width: 100%;
+    height: 35%
+}
+
+#enemy-1{
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: mediumorchid;
+}
+
+
+#enemy-2{
+    float: left;
+    width: 34%;
+    height: 100%;
+    background-color: mediumvioletred;
+}
+
+#enemy-3{
+    float: left;
+    width: 33%;
+    height: 100%;
+    background-color: mediumorchid;
+}
+
+
+#graveyard {
+
+    margin-top: 25px;
+    padding: 25px;
+    height: 200px;
+    width: 100%;
+    background-color: black
+}
+
+#grave-1 {
+    /* margin-top: 10%; */
+    float: left;
+    height: 100%;
+    width: 33%;
+    /* margin-bottom: 10%; */
+    color: white;
+    background: darkred
+}
+
+
+#grave-2 {
+    /* margin-top: 10%; */
+    float: left;
+    height: 100%;
+    width: 34%;
+    /* margin-bottom: 10%; */
+    color: white;
+    background: darkslateblue
+}
+
+#grave-3 {
+    /* margin-top: 10%; */
+    float: left;
+    height: 100%;
+    width: 33%;
+    /* margin-bottom: 10%; */
+    color: white;
+    background: darkred
+}

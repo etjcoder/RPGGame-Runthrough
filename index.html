@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    <script src="assets/js/app.js"></script>
+
+    <title>RPG Game</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header">
+
+            <h1>RPG Game</h1>
+
+        </div>
+
+        <br>
+        <br>
+
+        <div id="arena">
+
+            <div id="hero-box">
+                <p>Hero: <span id="activehero-name"></span></p>
+                <p>HP: <span id="activehero-hp"></span></p>
+                <img id="activehero-image">
+                <br>
+                <button id="hero-atk">Attack!</button>
+                
+
+
+            </div>
+
+            <div id="score-box">
+                <p>Score</p>
+                <p>Last Attack: <span id="last-attack"></span> </p>
+            </div>
+
+            <div id="enemy-box">
+                <p>Enemy: <span id="activeenemy-name"></span></p>
+                <p>HP: <span id="activeenemy-hp"></span></p>
+                <img id="activeenemy-image">
+            </div>
+
+        </div>
+
+
+        <div id="player-choices">
+
+            <div id="heroes">
+                <div id="hero-1">
+                    <p>Hero 1: <span id="hero-0-name"></span></p>
+                    <p>HP: <span id="hero-0-hp"></span></p>
+                    <p>Attack: <span id="hero-0-attack"></span></p>
+                    <p>Attack Power: <span id="hero-0-attackpower"></span></p>
+                    <button class="hero-btn" value="Goku">Choose Hero</button>
+                </div>
+
+                <div id="hero-2">
+                    <p>Hero 2: <span id="hero-1-name"></span></p>
+                    <p>HP: <span id="hero-1-hp"></span></p>
+                    <p>Attack: <span id="hero-1-attack"></span></p>
+                    <p>Attack Power: <span id="hero-1-attackpower"></span></p>
+                    <button class="hero-btn" value="Gohan">Choose Hero</button>
+                </div>
+
+                <div id="hero-3">
+                    <p>Hero 3: <span id="hero-2-name"></span></p>
+                    <p>HP: <span id="hero-2-hp"></span></p>
+                    <p>Attack: <span id="hero-2-attack"></span></p>
+                    <p>Attack Power: <span id="hero-2-attackpower"></span></p>
+                    <button class="hero-btn" value="Vegeta">Choose Hero</button>
+                </div>
+            </div>
+
+
+            <div id="breaker">
+
+            </div>
+
+            <div id="enemies">
+                <div id="enemy-1">
+                        <p>Enemy 1: <span id="enemy-0-name"></span></p>
+                        <p>HP: <span id="enemy-0-hp"></span></p>
+                        <p>Attack: <span id="enemy-0-attack"></span></p>
+                        <p>Attack Power: <span id="enemy-0-attackpower"></span></p>
+                </div>
+
+                <div id="enemy-2">
+                        <p>Enemy 2: <span id="enemy-1-name"></span></p>
+                        <p>HP: <span id="enemy-1-hp"></span></p>
+                        <p>Attack: <span id="enemy-1-attack"></span></p>
+                        <p>Attack Power: <span id="enemy-1-attackpower">25</span></p>
+                </div>
+
+                <div id="enemy-3">
+                        <p>Enemy 3: <span id="enemy-2-name"></span></p>
+                        <p>HP: <span id="enemy-2-hp"></span></p>
+                        <p>Attack: <span id="enemy-2-attack"></span></p>
+                        <p>Attack Power: <span id="enemy-2-attackpower"></span></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="graveyard">
+
+            <div id="grave-1"></div>
+            <div id="grave-2"></div>
+            <div id="grave-3"></div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
